@@ -8,7 +8,7 @@ pipeline {
       steps {
         checkout([$class: 'GitSCM',
           branches: [[name: '*/main']],
-          userRemoteConfigs: [[url: 'https://github.com/<your-username>/spring-petclinic.git']]
+          userRemoteConfigs: [[url: 'https://github.com/fazaluddinsyed/spring-petclinic.git']]
         ])
       }
     }
